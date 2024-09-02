@@ -1,0 +1,59 @@
+/* Leonardo Takeshiro Souza Toyama 3D 21/08/2024 */
+
+body {
+    
+    background: #449bf2; /*define a cor de fundo do elemento "body" */ 
+    color: white;  /*define a cor da fonte do elemento "body" */
+    margin: 0px; /* define o tamanho da margem do elemento "body" */
+    font-family: "Playfair Display", serif; /* define a fonte do elemento "body" */
+    margin-bottom: 100px; /* define o tamanho da margem de baixo do "body" */ 
+}
+
+header {
+    border-bottom: solid 2px #18d2e9; /* define o tamanho e a cor da borda de baixo do elemento "header"*/
+    padding: 20px; /* define o tamanho da margem interna do elemento "header" */
+    font-size: 32px; /* define o tamanho da fonte do elemento "header" */
+    color: white; /* define a cor da fonte do elemento "header" */
+}
+
+.chamada {
+    background: #ffba3a; /* define a cor de fundo do elemento "section" */
+    padding-bottom: 80px; /* define o tamanho da margem interna de baixo do elemento "section" */
+    padding-top: 80px; /* define o tamanho da margem interna de cima do elemento "section" */
+    display: flex; /* define a organização do elemento "section" como flexivel */
+    justify-content: center; /* define a justificação do texto no centro */
+}
+
+.chamada-texto{
+    margin-right: 5%; /* define o tamanho da margem a direita do elemento para 5% do tamanho total da página */
+}
+
+h1{ 
+    font-size: 60px; /* define o tamanho da fonte do elemento "h1" */
+}
+
+p{
+    font-size: 30px; /* define o tamanho da fonte do elemento "p" */
+}
+
+.categoria-videos{
+    display: flex; /* define a organizaçao dos elementos como flexiveis */
+    overflow-x: auto; /* cria uma barra de rolagem, para nao "transbordar" a pagina */
+    gap: 10px; /* cria um vao entre uma imagem e a outra */
+}
+
+.categoria{
+    padding-left: 20px; /* define o tamanho da margem interna esquerda do elemento */
+    padding-right: 20px; /* define o tamanho da margem interna direita do elemento */
+    margin-top: 50px; /* define o tamanho da margem externa de cima do elemento */
+}
+
+.categoria-videos img{
+    opacity: 0.5; /* define a opacidade das imagens da div "categoria-videos" */
+    height: 225px; /* define o tamanho de todas as imagens da div "categoria-videos" */
+}
+
+.categoria-videos img:hover{ /* quando passar o mouse sobre a imagem... */
+    opacity: 1.0; /* ...aumenta a opacidade da imagem */ 
+    border: 1px solid white; /* ...cria uma borda branca para a imagem */
+}
